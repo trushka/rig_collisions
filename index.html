@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Multiple animated objects</title>
+		<meta charset="utf-8">
+		<meta content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+		<link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div id="container"></div>
+
+		<div id="info">
+			This demo shows a collisions detection<br/>
+			Soldier model from <a href="https://www.mixamo.com" target="_blank" rel="noopener">https://www.mixamo.com</a>.
+		</div>
+
+		<script type="module">
+			import * as _3d from './js/main.js';
+			setTimeout(()=>Object.assign(window,_3d), 300) //set global variables for debugging
+		</script>
+
+	</body>
+
+</html>
